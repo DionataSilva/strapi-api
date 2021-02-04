@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landing-page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.logo",
+      "required": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.header",
+      "required": true
+    },
+    "aboutUsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.about-us-section",
+      "required": true
+    }
+  }
+}
