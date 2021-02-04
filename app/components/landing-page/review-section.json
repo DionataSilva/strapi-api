@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_page_review_sections",
+  "info": {
+    "name": "reviewSection",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Revieew title",
+      "required": true
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.review",
+      "required": true
+    }
+  }
+}

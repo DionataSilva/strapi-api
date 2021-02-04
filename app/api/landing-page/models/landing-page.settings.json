@@ -64,6 +64,18 @@
       "repeatable": false,
       "component": "landing-page.authors-section",
       "required": true
+    },
+    "reviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.review-section",
+      "required": true
+    },
+    "faqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.faq-section",
+      "required": true
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_faq_sections",
+  "info": {
+    "name": "faqSection",
+    "icon": "question-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.question",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Faq title",
+      "required": false
+    }
+  }
+}

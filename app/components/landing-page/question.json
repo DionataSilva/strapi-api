@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_landing_page_questions",
+  "info": {
+    "name": "question",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "default": "Question?",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "default": "Question description",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "default": "http://optional-link",
+      "required": true
+    }
+  }
+}
