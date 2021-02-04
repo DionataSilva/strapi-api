@@ -23,10 +23,46 @@
       "component": "landing-page.header",
       "required": true
     },
-    "aboutUsSection": {
+    "aboutProjectSection": {
       "type": "component",
       "repeatable": false,
       "component": "landing-page.about-us-section",
+      "required": true
+    },
+    "techSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.tech-section",
+      "required": true
+    },
+    "conceptsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.concepts-section",
+      "required": true
+    },
+    "modulesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.modules-section",
+      "required": true
+    },
+    "agendaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.agenda-section",
+      "required": true
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.pricing-box",
+      "required": true
+    },
+    "authorsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.authors-section",
       "required": true
     }
   }

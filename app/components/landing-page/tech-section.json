@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_tech_sections",
+  "info": {
+    "name": "techSection",
+    "icon": "suitcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Tech section",
+      "required": true
+    },
+    "tech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.tech",
+      "required": true,
+      "min": 2
+    }
+  }
+}

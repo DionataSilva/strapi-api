@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_page_authors_sections",
+  "info": {
+    "name": "authorsSection",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Author",
+      "required": true
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}

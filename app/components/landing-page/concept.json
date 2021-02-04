@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_page_concepts",
+  "info": {
+    "name": "concept",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "concept": {
+      "type": "string",
+      "required": true,
+      "default": "concept",
+      "minLength": 3
+    }
+  }
+}

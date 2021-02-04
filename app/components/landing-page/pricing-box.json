@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_landing_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal",
+      "default": 549,
+      "required": true
+    },
+    "installments": {
+      "type": "integer",
+      "default": 6,
+      "required": true
+    },
+    "installmentPrice": {
+      "type": "decimal",
+      "default": 67,
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.benefits",
+      "required": true,
+      "min": 2,
+      "max": 15
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.button"
+    }
+  }
+}

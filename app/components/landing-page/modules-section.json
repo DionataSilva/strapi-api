@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_modules_sections",
+  "info": {
+    "name": "modulesSection",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.module",
+      "required": true,
+      "min": 2
+    },
+    "title": {
+      "type": "string",
+      "default": "Module title",
+      "required": true
+    }
+  }
+}

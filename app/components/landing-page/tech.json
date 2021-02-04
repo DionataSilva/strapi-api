@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_page_teches",
+  "info": {
+    "name": "tech",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

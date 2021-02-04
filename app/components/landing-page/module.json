@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_landing_page_modules",
+  "info": {
+    "name": "module",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "tile": {
+      "type": "string",
+      "default": "Module title",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Module subtitle",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "default": "Module description",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_page_benefits",
+  "info": {
+    "name": "benefits",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "benefit": {
+      "type": "string",
+      "default": "benefit",
+      "required": true
+    }
+  }
+}

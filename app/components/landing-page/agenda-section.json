@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_page_agenda_sections",
+  "info": {
+    "name": "agendaSection",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title agenda",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Agenda description",
+      "required": true
+    }
+  }
+}

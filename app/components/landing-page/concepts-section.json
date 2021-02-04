@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_page_concepts_sections",
+  "info": {
+    "name": "conceptsSection",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Concepts title"
+    },
+    "concept": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.concept"
+    }
+  }
+}
